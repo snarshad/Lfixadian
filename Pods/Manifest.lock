@@ -1,0 +1,69 @@
+PODS:
+  - CocoaLumberjack (1.9.1):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.9.1)
+  - CocoaLumberjack/Extensions (1.9.1):
+    - CocoaLumberjack/Core
+  - EDSunriseSet (0.1)
+  - LIFXKit (0.5.0):
+    - CocoaLumberjack (~> 1.6)
+  - NKOColorPickerView (0.2)
+  - SAMAddressBar (0.1.0)
+  - SAMBadgeView (0.1.0)
+  - SAMCategories (0.5.2)
+  - SAMCircleProgressView (0.1.1)
+  - SAMGradientView (0.2.1)
+  - SAMHUDView (0.1.3)
+  - SAMLabel (0.1.0)
+  - SAMLoadingView (0.1.0)
+  - SAMRateLimit (0.2.0)
+  - SAMTextField (0.1.1)
+  - SAMTextView (0.2.1)
+  - SAMWebView (0.2.1)
+  - SSPullToRefresh (1.2.0)
+  - SSToolkit (2.0.0):
+    - SAMAddressBar
+    - SAMBadgeView
+    - SAMCategories
+    - SAMCircleProgressView
+    - SAMGradientView
+    - SAMHUDView
+    - SAMLabel
+    - SAMLoadingView
+    - SAMRateLimit
+    - SAMTextField
+    - SAMTextView
+    - SAMWebView
+  - WYPopoverController (0.2.2)
+
+DEPENDENCIES:
+  - EDSunriseSet
+  - LIFXKit
+  - NKOColorPickerView
+  - NKOColorPickerView (~> 0.2)
+  - SSPullToRefresh
+  - SSToolkit
+  - WYPopoverController (~> 0.2.2)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 94accd5749f5c5d15134c8d50f34a973aed8ef69
+  EDSunriseSet: 86ea62296c0cd5a3a0b512549a0b0f9ddffc7636
+  LIFXKit: 4280129f60f1b93a631b0ecaf13432bb77b15fc8
+  NKOColorPickerView: b4d32e1eedfcaeaec890f8301081ee030d49cffd
+  SAMAddressBar: 5880d7cc6fea49e7371b8183924b59cdd14b82fe
+  SAMBadgeView: 6f29c18e5dc4ddf6d843c3c5e9c9207028c2e8a8
+  SAMCategories: dc26f9dc67d371d22f391ee2173bc607a887912e
+  SAMCircleProgressView: 8ec885aeaf60bd1ab717d82da166d3a807c63931
+  SAMGradientView: 37ef027b0da8b5fd85bfdfef49801b5262160998
+  SAMHUDView: d16d5814ab1a2e86a0c6c5aba8d67bbd845d78b1
+  SAMLabel: 14570303160fa7844fd4ebb0358cdb3841076825
+  SAMLoadingView: 11b746311268140f6a2380723215fe96a6d15dee
+  SAMRateLimit: f47a9961333e2d44fe189ef2233cee48012905ee
+  SAMTextField: 2dece66424f76a0aea1209adb0becbe728ad9098
+  SAMTextView: 1062a784ba7b2080b0c17748001c416b53010b4b
+  SAMWebView: e615d50d3683b9b4fd3e10da9d079ed03230ee24
+  SSPullToRefresh: bb513a1ccbf08fdd67e4139bc1bbe3fc2ed34228
+  SSToolkit: 64d8bb043b4f36da68936ddbb4ec4e8cb3c5a8df
+  WYPopoverController: c233d69fdfd5c7e316b481df1060624d7a9e629d
+
+COCOAPODS: 0.33.1

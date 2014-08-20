@@ -1,0 +1,7 @@
+pod 'LIFXKit'
+pod 'EDSunriseSet'
+pod 'NKOColorPickerView'
+pod 'SSToolkit'
+pod 'SSPullToRefresh'
+pod 'NKOColorPickerView', '~> 0.2'
+pod 'WYPopoverController', '~> 0.2.2'

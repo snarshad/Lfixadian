@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7635CD1985F70F009033F4 /* LFXHSBKColor+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635991985F70F009033F4 /* LFXHSBKColor+NSCoding.m */; };
+		EF7635CE1985F70F009033F4 /* LFXHSBKColor+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF76359B1985F70F009033F4 /* LFXHSBKColor+UIColor.m */; };
+		EF7635CF1985F70F009033F4 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF76359D1985F70F009033F4 /* NSDate+Extensions.m */; };
+		EF7635D01985F70F009033F4 /* NSFileManager+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF76359F1985F70F009033F4 /* NSFileManager+Extensions.m */; };
+		EF7635D11985F70F009033F4 /* NSString+TimeParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635A11985F70F009033F4 /* NSString+TimeParsing.m */; };
+		EF7635D31985F70F009033F4 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635A51985F70F009033F4 /* UIColor+Extensions.m */; };
+		EF7635D41985F70F009033F4 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635A81985F70F009033F4 /* UIImage+Tint.m */; };
+		EF7635D51985F70F009033F4 /* ColorTempManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635AB1985F70F009033F4 /* ColorTempManager.m */; };
+		EF7635D61985F70F009033F4 /* LXGradientInfo+Presets.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635AE1985F70F009033F4 /* LXGradientInfo+Presets.m */; };
+		EF7635D71985F70F009033F4 /* LXGradientInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635B01985F70F009033F4 /* LXGradientInfo.m */; };
+		EF7635D81985F70F009033F4 /* LXGradientTime.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635B21985F70F009033F4 /* LXGradientTime.m */; };
+		EF7635D91985F70F009033F4 /* LXWakeupAndSleepTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635B41985F70F009033F4 /* LXWakeupAndSleepTimes.m */; };
+		EF7635DA1985F70F009033F4 /* LXLightBulbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635B81985F70F009033F4 /* LXLightBulbImageView.m */; };
+		EF7635DB1985F70F009033F4 /* LXColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635BB1985F70F009033F4 /* LXColorPickerViewController.m */; };
+		EF7635DC1985F70F009033F4 /* LXGradientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635BE1985F70F009033F4 /* LXGradientListViewController.m */; };
+		EF7635DE1985F70F009033F4 /* LXGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635C21985F70F009033F4 /* LXGradientView.m */; };
+		EF7635DF1985F70F009033F4 /* LXLightSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635C51985F70F009033F4 /* LXLightSelectorViewController.m */; };
+		EF7635E01985F70F009033F4 /* LXLightSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7635C61985F70F009033F4 /* LXLightSelectorViewController.xib */; };
+		EF7635E11985F70F009033F4 /* LXLightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635C81985F70F009033F4 /* LXLightTableViewCell.m */; };
+		EF7635E21985F70F009033F4 /* LXLightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7635C91985F70F009033F4 /* LXLightTableViewCell.xib */; };
+		EF7635E31985F70F009033F4 /* LXLightSelectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635CC1985F70F009033F4 /* LXLightSelectorButton.m */; };
+		EF7635EA1985FCCC009033F4 /* LXGradientInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7635E81985FCCC009033F4 /* LXGradientInfoTableViewCell.m */; };
+		EF7635EB1985FCCC009033F4 /* LXGradientInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7635E91985FCCC009033F4 /* LXGradientInfoTableViewCell.xib */; };
+		EF83D65F1974B65700179292 /* LXLightManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83D65E1974B65700179292 /* LXLightManager.m */; };
+		EFA6E9D319863F0300947B93 /* LXGradientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA6E9D119863F0300947B93 /* LXGradientDetailViewController.m */; };
+		EFA6E9D419863F0300947B93 /* LXGradientDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA6E9D219863F0300947B93 /* LXGradientDetailViewController.xib */; };
+		EFBCE19819624A2900137F8C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBCE19719624A2900137F8C /* CoreLocation.framework */; };
+		EFD30168195B38E0008ADBF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD30167195B38E0008ADBF6 /* main.m */; };
+		EFD3016B195B38E0008ADBF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3016A195B38E0008ADBF6 /* AppDelegate.m */; };
+		EFD3016E195B38E0008ADBF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3016D195B38E0008ADBF6 /* ViewController.m */; };
+		EFD30171195B38E0008ADBF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD3016F195B38E0008ADBF6 /* Main.storyboard */; };
+		EFD30173195B38E0008ADBF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD30172195B38E0008ADBF6 /* Images.xcassets */; };
+		EFD3017F195B38E0008ADBF6 /* LifxadianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD3017E195B38E0008ADBF6 /* LifxadianTests.m */; };
+		EFEF9D3819A4809300A54590 /* LXGradientLocationIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEF9D3719A4809300A54590 /* LXGradientLocationIndicatorView.m */; };
+		EFF0CADA197CB19900D2F9CA /* LXDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF0CAD9197CB19900D2F9CA /* LXDetailViewController.xib */; };
+		EFF65B2C197C42D400D4C004 /* LXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF65B2B197C42D400D4C004 /* LXDetailViewController.m */; };
+		F081F6D3F5B24940BD2C158F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A931E9AE703C446E95300369 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD30179195B38E0008ADBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD3015A195B38E0008ADBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD30161195B38E0008ADBF6;
+			remoteInfo = Lifxadian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A931E9AE703C446E95300369 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF51CC169DC24A48B9E4A1DF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		EF7635981985F70F009033F4 /* LFXHSBKColor+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFXHSBKColor+NSCoding.h"; sourceTree = "<group>"; };
+		EF7635991985F70F009033F4 /* LFXHSBKColor+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFXHSBKColor+NSCoding.m"; sourceTree = "<group>"; };
+		EF76359A1985F70F009033F4 /* LFXHSBKColor+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFXHSBKColor+UIColor.h"; sourceTree = "<group>"; };
+		EF76359B1985F70F009033F4 /* LFXHSBKColor+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFXHSBKColor+UIColor.m"; sourceTree = "<group>"; };
+		EF76359C1985F70F009033F4 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		EF76359D1985F70F009033F4 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		EF76359E1985F70F009033F4 /* NSFileManager+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extensions.h"; sourceTree = "<group>"; };
+		EF76359F1985F70F009033F4 /* NSFileManager+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extensions.m"; sourceTree = "<group>"; };
+		EF7635A01985F70F009033F4 /* NSString+TimeParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TimeParsing.h"; sourceTree = "<group>"; };
+		EF7635A11985F70F009033F4 /* NSString+TimeParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TimeParsing.m"; sourceTree = "<group>"; };
+		EF7635A21985F70F009033F4 /* NSTimeZone+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+Additions.h"; sourceTree = "<group>"; };
+		EF7635A31985F70F009033F4 /* NSTimeZone+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+Additions.m"; sourceTree = "<group>"; };
+		EF7635A41985F70F009033F4 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		EF7635A51985F70F009033F4 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		EF7635A61985F70F009033F4 /* UIColor+LFXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LFXExtensions.h"; sourceTree = "<group>"; };
+		EF7635A71985F70F009033F4 /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		EF7635A81985F70F009033F4 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		EF7635AA1985F70F009033F4 /* ColorTempManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTempManager.h; sourceTree = "<group>"; };
+		EF7635AB1985F70F009033F4 /* ColorTempManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTempManager.m; sourceTree = "<group>"; };
+		EF7635AD1985F70F009033F4 /* LXGradientInfo+Presets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LXGradientInfo+Presets.h"; sourceTree = "<group>"; };
+		EF7635AE1985F70F009033F4 /* LXGradientInfo+Presets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LXGradientInfo+Presets.m"; sourceTree = "<group>"; };
+		EF7635AF1985F70F009033F4 /* LXGradientInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientInfo.h; sourceTree = "<group>"; };
+		EF7635B01985F70F009033F4 /* LXGradientInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientInfo.m; sourceTree = "<group>"; };
+		EF7635B11985F70F009033F4 /* LXGradientTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientTime.h; sourceTree = "<group>"; };
+		EF7635B21985F70F009033F4 /* LXGradientTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientTime.m; sourceTree = "<group>"; };
+		EF7635B31985F70F009033F4 /* LXWakeupAndSleepTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWakeupAndSleepTimes.h; sourceTree = "<group>"; };
+		EF7635B41985F70F009033F4 /* LXWakeupAndSleepTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWakeupAndSleepTimes.m; sourceTree = "<group>"; };
+		EF7635B71985F70F009033F4 /* LXLightBulbImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLightBulbImageView.h; sourceTree = "<group>"; };
+		EF7635B81985F70F009033F4 /* LXLightBulbImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLightBulbImageView.m; sourceTree = "<group>"; };
+		EF7635BA1985F70F009033F4 /* LXColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXColorPickerViewController.h; sourceTree = "<group>"; };
+		EF7635BB1985F70F009033F4 /* LXColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXColorPickerViewController.m; sourceTree = "<group>"; };
+		EF7635BD1985F70F009033F4 /* LXGradientListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientListViewController.h; sourceTree = "<group>"; };
+		EF7635BE1985F70F009033F4 /* LXGradientListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientListViewController.m; sourceTree = "<group>"; };
+		EF7635C11985F70F009033F4 /* LXGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientView.h; sourceTree = "<group>"; };
+		EF7635C21985F70F009033F4 /* LXGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientView.m; sourceTree = "<group>"; };
+		EF7635C41985F70F009033F4 /* LXLightSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLightSelectorViewController.h; sourceTree = "<group>"; };
+		EF7635C51985F70F009033F4 /* LXLightSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLightSelectorViewController.m; sourceTree = "<group>"; };
+		EF7635C61985F70F009033F4 /* LXLightSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXLightSelectorViewController.xib; sourceTree = "<group>"; };
+		EF7635C71985F70F009033F4 /* LXLightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLightTableViewCell.h; sourceTree = "<group>"; };
+		EF7635C81985F70F009033F4 /* LXLightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLightTableViewCell.m; sourceTree = "<group>"; };
+		EF7635C91985F70F009033F4 /* LXLightTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXLightTableViewCell.xib; sourceTree = "<group>"; };
+		EF7635CB1985F70F009033F4 /* LXLightSelectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLightSelectorButton.h; sourceTree = "<group>"; };
+		EF7635CC1985F70F009033F4 /* LXLightSelectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLightSelectorButton.m; sourceTree = "<group>"; };
+		EF7635E41985FC56009033F4 /* FoundationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationMacros.h; sourceTree = "<group>"; };
+		EF7635E71985FCCC009033F4 /* LXGradientInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientInfoTableViewCell.h; sourceTree = "<group>"; };
+		EF7635E81985FCCC009033F4 /* LXGradientInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientInfoTableViewCell.m; sourceTree = "<group>"; };
+		EF7635E91985FCCC009033F4 /* LXGradientInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXGradientInfoTableViewCell.xib; sourceTree = "<group>"; };
+		EF83D65D1974B65700179292 /* LXLightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXLightManager.h; path = LightManager/LXLightManager.h; sourceTree = "<group>"; };
+		EF83D65E1974B65700179292 /* LXLightManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXLightManager.m; path = LightManager/LXLightManager.m; sourceTree = "<group>"; };
+		EFA6E9D019863F0300947B93 /* LXGradientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientDetailViewController.h; sourceTree = "<group>"; };
+		EFA6E9D119863F0300947B93 /* LXGradientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientDetailViewController.m; sourceTree = "<group>"; };
+		EFA6E9D219863F0300947B93 /* LXGradientDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXGradientDetailViewController.xib; sourceTree = "<group>"; };
+		EFBCE19719624A2900137F8C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EFD30162195B38E0008ADBF6 /* Lifxadian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifxadian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD30166195B38E0008ADBF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD30167195B38E0008ADBF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD30169195B38E0008ADBF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD3016A195B38E0008ADBF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD3016C195B38E0008ADBF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFD3016D195B38E0008ADBF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFD30170195B38E0008ADBF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD30172195B38E0008ADBF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD30178195B38E0008ADBF6 /* LifxadianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifxadianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD3017D195B38E0008ADBF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD3017E195B38E0008ADBF6 /* LifxadianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifxadianTests.m; sourceTree = "<group>"; };
+		EFEF9D3619A4809300A54590 /* LXGradientLocationIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXGradientLocationIndicatorView.h; sourceTree = "<group>"; };
+		EFEF9D3719A4809300A54590 /* LXGradientLocationIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXGradientLocationIndicatorView.m; sourceTree = "<group>"; };
+		EFF0CAD9197CB19900D2F9CA /* LXDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXDetailViewController.xib; sourceTree = "<group>"; };
+		EFF65B2A197C42D400D4C004 /* LXDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDetailViewController.h; sourceTree = "<group>"; };
+		EFF65B2B197C42D400D4C004 /* LXDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD3015F195B38E0008ADBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBCE19819624A2900137F8C /* CoreLocation.framework in Frameworks */,
+				F081F6D3F5B24940BD2C158F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD30175195B38E0008ADBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1B05CADD58242B3B44123A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFBCE19719624A2900137F8C /* CoreLocation.framework */,
+				A931E9AE703C446E95300369 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7635971985F70F009033F4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635981985F70F009033F4 /* LFXHSBKColor+NSCoding.h */,
+				EF7635991985F70F009033F4 /* LFXHSBKColor+NSCoding.m */,
+				EF76359A1985F70F009033F4 /* LFXHSBKColor+UIColor.h */,
+				EF76359B1985F70F009033F4 /* LFXHSBKColor+UIColor.m */,
+				EF76359C1985F70F009033F4 /* NSDate+Extensions.h */,
+				EF76359D1985F70F009033F4 /* NSDate+Extensions.m */,
+				EF76359E1985F70F009033F4 /* NSFileManager+Extensions.h */,
+				EF76359F1985F70F009033F4 /* NSFileManager+Extensions.m */,
+				EF7635A01985F70F009033F4 /* NSString+TimeParsing.h */,
+				EF7635A11985F70F009033F4 /* NSString+TimeParsing.m */,
+				EF7635A21985F70F009033F4 /* NSTimeZone+Additions.h */,
+				EF7635A31985F70F009033F4 /* NSTimeZone+Additions.m */,
+				EF7635A41985F70F009033F4 /* UIColor+Extensions.h */,
+				EF7635A51985F70F009033F4 /* UIColor+Extensions.m */,
+				EF7635A61985F70F009033F4 /* UIColor+LFXExtensions.h */,
+				EF7635A71985F70F009033F4 /* UIImage+Tint.h */,
+				EF7635A81985F70F009033F4 /* UIImage+Tint.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EF7635A91985F70F009033F4 /* LXColorTempManager */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635AA1985F70F009033F4 /* ColorTempManager.h */,
+				EF7635AB1985F70F009033F4 /* ColorTempManager.m */,
+			);
+			path = LXColorTempManager;
+			sourceTree = "<group>";
+		};
+		EF7635AC1985F70F009033F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635AD1985F70F009033F4 /* LXGradientInfo+Presets.h */,
+				EF7635AE1985F70F009033F4 /* LXGradientInfo+Presets.m */,
+				EF7635AF1985F70F009033F4 /* LXGradientInfo.h */,
+				EF7635B01985F70F009033F4 /* LXGradientInfo.m */,
+				EF7635B11985F70F009033F4 /* LXGradientTime.h */,
+				EF7635B21985F70F009033F4 /* LXGradientTime.m */,
+				EF7635B31985F70F009033F4 /* LXWakeupAndSleepTimes.h */,
+				EF7635B41985F70F009033F4 /* LXWakeupAndSleepTimes.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF7635B51985F70F009033F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635B61985F70F009033F4 /* LXBulbImageView */,
+				EF7635B91985F70F009033F4 /* LXColorPicker */,
+				EF7635BC1985F70F009033F4 /* LXGradientListViewController */,
+				EF7635C01985F70F009033F4 /* LXGradientVIew */,
+				EF7635C31985F70F009033F4 /* LXLightSelector */,
+				EF7635CA1985F70F009033F4 /* LXLightSelectorButton */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF7635B61985F70F009033F4 /* LXBulbImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635B71985F70F009033F4 /* LXLightBulbImageView.h */,
+				EF7635B81985F70F009033F4 /* LXLightBulbImageView.m */,
+			);
+			path = LXBulbImageView;
+			sourceTree = "<group>";
+		};
+		EF7635B91985F70F009033F4 /* LXColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635BA1985F70F009033F4 /* LXColorPickerViewController.h */,
+				EF7635BB1985F70F009033F4 /* LXColorPickerViewController.m */,
+			);
+			path = LXColorPicker;
+			sourceTree = "<group>";
+		};
+		EF7635BC1985F70F009033F4 /* LXGradientListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635E61985FCB4009033F4 /* Table View Cells */,
+				EF7635BD1985F70F009033F4 /* LXGradientListViewController.h */,
+				EF7635BE1985F70F009033F4 /* LXGradientListViewController.m */,
+				EFA6E9D019863F0300947B93 /* LXGradientDetailViewController.h */,
+				EFA6E9D119863F0300947B93 /* LXGradientDetailViewController.m */,
+				EFA6E9D219863F0300947B93 /* LXGradientDetailViewController.xib */,
+			);
+			path = LXGradientListViewController;
+			sourceTree = "<group>";
+		};
+		EF7635C01985F70F009033F4 /* LXGradientVIew */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635C11985F70F009033F4 /* LXGradientView.h */,
+				EF7635C21985F70F009033F4 /* LXGradientView.m */,
+				EFEF9D3619A4809300A54590 /* LXGradientLocationIndicatorView.h */,
+				EFEF9D3719A4809300A54590 /* LXGradientLocationIndicatorView.m */,
+			);
+			path = LXGradientVIew;
+			sourceTree = "<group>";
+		};
+		EF7635C31985F70F009033F4 /* LXLightSelector */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635C41985F70F009033F4 /* LXLightSelectorViewController.h */,
+				EF7635C51985F70F009033F4 /* LXLightSelectorViewController.m */,
+				EF7635C61985F70F009033F4 /* LXLightSelectorViewController.xib */,
+				EF7635C71985F70F009033F4 /* LXLightTableViewCell.h */,
+				EF7635C81985F70F009033F4 /* LXLightTableViewCell.m */,
+				EF7635C91985F70F009033F4 /* LXLightTableViewCell.xib */,
+			);
+			path = LXLightSelector;
+			sourceTree = "<group>";
+		};
+		EF7635CA1985F70F009033F4 /* LXLightSelectorButton */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635CB1985F70F009033F4 /* LXLightSelectorButton.h */,
+				EF7635CC1985F70F009033F4 /* LXLightSelectorButton.m */,
+			);
+			path = LXLightSelectorButton;
+			sourceTree = "<group>";
+		};
+		EF7635E61985FCB4009033F4 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635E71985FCCC009033F4 /* LXGradientInfoTableViewCell.h */,
+				EF7635E81985FCCC009033F4 /* LXGradientInfoTableViewCell.m */,
+				EF7635E91985FCCC009033F4 /* LXGradientInfoTableViewCell.xib */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		EF9261391973A48D00C8EB89 /* LightManager */ = {
+			isa = PBXGroup;
+			children = (
+				EF83D65D1974B65700179292 /* LXLightManager.h */,
+				EF83D65E1974B65700179292 /* LXLightManager.m */,
+			);
+			name = LightManager;
+			sourceTree = "<group>";
+		};
+		EFD30159195B38E0008ADBF6 = {
+			isa = PBXGroup;
+			children = (
+				EFD30164195B38E0008ADBF6 /* Lifxadian */,
+				EFD3017B195B38E0008ADBF6 /* LifxadianTests */,
+				EFD30163195B38E0008ADBF6 /* Products */,
+				AF51CC169DC24A48B9E4A1DF /* Pods.xcconfig */,
+				E1B05CADD58242B3B44123A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD30163195B38E0008ADBF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD30162195B38E0008ADBF6 /* Lifxadian.app */,
+				EFD30178195B38E0008ADBF6 /* LifxadianTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD30164195B38E0008ADBF6 /* Lifxadian */ = {
+			isa = PBXGroup;
+			children = (
+				EF7635971985F70F009033F4 /* Categories */,
+				EF7635A91985F70F009033F4 /* LXColorTempManager */,
+				EF7635AC1985F70F009033F4 /* Model */,
+				EF7635B51985F70F009033F4 /* Views */,
+				EF9261391973A48D00C8EB89 /* LightManager */,
+				EFD30169195B38E0008ADBF6 /* AppDelegate.h */,
+				EFD3016A195B38E0008ADBF6 /* AppDelegate.m */,
+				EFD3016C195B38E0008ADBF6 /* ViewController.h */,
+				EFD3016D195B38E0008ADBF6 /* ViewController.m */,
+				EFF65B2A197C42D400D4C004 /* LXDetailViewController.h */,
+				EFF65B2B197C42D400D4C004 /* LXDetailViewController.m */,
+				EFF0CAD9197CB19900D2F9CA /* LXDetailViewController.xib */,
+				EFD3016F195B38E0008ADBF6 /* Main.storyboard */,
+				EFD30172195B38E0008ADBF6 /* Images.xcassets */,
+				EF7635E41985FC56009033F4 /* FoundationMacros.h */,
+				EFD30165195B38E0008ADBF6 /* Supporting Files */,
+			);
+			path = Lifxadian;
+			sourceTree = "<group>";
+		};
+		EFD30165195B38E0008ADBF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD30166195B38E0008ADBF6 /* Info.plist */,
+				EFD30167195B38E0008ADBF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD3017B195B38E0008ADBF6 /* LifxadianTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3017E195B38E0008ADBF6 /* LifxadianTests.m */,
+				EFD3017C195B38E0008ADBF6 /* Supporting Files */,
+			);
+			path = LifxadianTests;
+			sourceTree = "<group>";
+		};
+		EFD3017C195B38E0008ADBF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3017D195B38E0008ADBF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD30161195B38E0008ADBF6 /* Lifxadian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD30182195B38E0008ADBF6 /* Build configuration list for PBXNativeTarget "Lifxadian" */;
+			buildPhases = (
+				A77759F65B8B43319646D35F /* Check Pods Manifest.lock */,
+				EFD3015E195B38E0008ADBF6 /* Sources */,
+				EFD3015F195B38E0008ADBF6 /* Frameworks */,
+				EFD30160195B38E0008ADBF6 /* Resources */,
+				29588D72B2F94185AD59DA33 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lifxadian;
+			productName = Lifxadian;
+			productReference = EFD30162195B38E0008ADBF6 /* Lifxadian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD30177195B38E0008ADBF6 /* LifxadianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD30185195B38E0008ADBF6 /* Build configuration list for PBXNativeTarget "LifxadianTests" */;
+			buildPhases = (
+				EFD30174195B38E0008ADBF6 /* Sources */,
+				EFD30175195B38E0008ADBF6 /* Frameworks */,
+				EFD30176195B38E0008ADBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD3017A195B38E0008ADBF6 /* PBXTargetDependency */,
+			);
+			name = LifxadianTests;
+			productName = LifxadianTests;
+			productReference = EFD30178195B38E0008ADBF6 /* LifxadianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD3015A195B38E0008ADBF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Snarshad Development Labs";
+				TargetAttributes = {
+					EFD30161195B38E0008ADBF6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EFD30177195B38E0008ADBF6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EFD30161195B38E0008ADBF6;
+					};
+				};
+			};
+			buildConfigurationList = EFD3015D195B38E0008ADBF6 /* Build configuration list for PBXProject "Lifxadian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD30159195B38E0008ADBF6;
+			productRefGroup = EFD30163195B38E0008ADBF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD30161195B38E0008ADBF6 /* Lifxadian */,
+				EFD30177195B38E0008ADBF6 /* LifxadianTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD30160195B38E0008ADBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7635E01985F70F009033F4 /* LXLightSelectorViewController.xib in Resources */,
+				EFD30171195B38E0008ADBF6 /* Main.storyboard in Resources */,
+				EFA6E9D419863F0300947B93 /* LXGradientDetailViewController.xib in Resources */,
+				EFF0CADA197CB19900D2F9CA /* LXDetailViewController.xib in Resources */,
+				EF7635EB1985FCCC009033F4 /* LXGradientInfoTableViewCell.xib in Resources */,
+				EF7635E21985F70F009033F4 /* LXLightTableViewCell.xib in Resources */,
+				EFD30173195B38E0008ADBF6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD30176195B38E0008ADBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29588D72B2F94185AD59DA33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77759F65B8B43319646D35F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD3015E195B38E0008ADBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA6E9D319863F0300947B93 /* LXGradientDetailViewController.m in Sources */,
+				EF7635E11985F70F009033F4 /* LXLightTableViewCell.m in Sources */,
+				EF7635CF1985F70F009033F4 /* NSDate+Extensions.m in Sources */,
+				EF7635D41985F70F009033F4 /* UIImage+Tint.m in Sources */,
+				EFD3016E195B38E0008ADBF6 /* ViewController.m in Sources */,
+				EF7635D61985F70F009033F4 /* LXGradientInfo+Presets.m in Sources */,
+				EF7635DB1985F70F009033F4 /* LXColorPickerViewController.m in Sources */,
+				EFEF9D3819A4809300A54590 /* LXGradientLocationIndicatorView.m in Sources */,
+				EF7635E31985F70F009033F4 /* LXLightSelectorButton.m in Sources */,
+				EFD3016B195B38E0008ADBF6 /* AppDelegate.m in Sources */,
+				EF7635DA1985F70F009033F4 /* LXLightBulbImageView.m in Sources */,
+				EF83D65F1974B65700179292 /* LXLightManager.m in Sources */,
+				EF7635CD1985F70F009033F4 /* LFXHSBKColor+NSCoding.m in Sources */,
+				EFD30168195B38E0008ADBF6 /* main.m in Sources */,
+				EF7635CE1985F70F009033F4 /* LFXHSBKColor+UIColor.m in Sources */,
+				EF7635D71985F70F009033F4 /* LXGradientInfo.m in Sources */,
+				EF7635EA1985FCCC009033F4 /* LXGradientInfoTableViewCell.m in Sources */,
+				EF7635DE1985F70F009033F4 /* LXGradientView.m in Sources */,
+				EF7635D81985F70F009033F4 /* LXGradientTime.m in Sources */,
+				EF7635D11985F70F009033F4 /* NSString+TimeParsing.m in Sources */,
+				EFF65B2C197C42D400D4C004 /* LXDetailViewController.m in Sources */,
+				EF7635DC1985F70F009033F4 /* LXGradientListViewController.m in Sources */,
+				EF7635D51985F70F009033F4 /* ColorTempManager.m in Sources */,
+				EF7635D01985F70F009033F4 /* NSFileManager+Extensions.m in Sources */,
+				EF7635D31985F70F009033F4 /* UIColor+Extensions.m in Sources */,
+				EF7635DF1985F70F009033F4 /* LXLightSelectorViewController.m in Sources */,
+				EF7635D91985F70F009033F4 /* LXWakeupAndSleepTimes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD30174195B38E0008ADBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD3017F195B38E0008ADBF6 /* LifxadianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD3017A195B38E0008ADBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD30161195B38E0008ADBF6 /* Lifxadian */;
+			targetProxy = EFD30179195B38E0008ADBF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD3016F195B38E0008ADBF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD30170195B38E0008ADBF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD30180195B38E0008ADBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD30181195B38E0008ADBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD30183195B38E0008ADBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF51CC169DC24A48B9E4A1DF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Lifxadian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD30184195B38E0008ADBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF51CC169DC24A48B9E4A1DF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Lifxadian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD30186195B38E0008ADBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lifxadian.app/Lifxadian";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LifxadianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EFD30187195B38E0008ADBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lifxadian.app/Lifxadian";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LifxadianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD3015D195B38E0008ADBF6 /* Build configuration list for PBXProject "Lifxadian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD30180195B38E0008ADBF6 /* Debug */,
+				EFD30181195B38E0008ADBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD30182195B38E0008ADBF6 /* Build configuration list for PBXNativeTarget "Lifxadian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD30183195B38E0008ADBF6 /* Debug */,
+				EFD30184195B38E0008ADBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD30185195B38E0008ADBF6 /* Build configuration list for PBXNativeTarget "LifxadianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD30186195B38E0008ADBF6 /* Debug */,
+				EFD30187195B38E0008ADBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD3015A195B38E0008ADBF6 /* Project object */;
+}
